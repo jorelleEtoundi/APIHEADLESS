@@ -1,8 +1,7 @@
 const bcrypt = require("bcryptjs");
-var express = require('express');
+var express = require("express");
 var app = express();
 var router = express.Router();
-
 
 router.post("/signup", async (req, res) => {
   const { username, password, role } = req.body;
