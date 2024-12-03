@@ -1,7 +1,7 @@
 module.exports = {
   db: {
-    user: "adminsql90",
-    password: "@Dm1nsql90",
+    user: "adminsql",
+    password: "@Dm1nsql",
     server: "dbaccess90.database.windows.net",
     database: "api-database",
     options: {
